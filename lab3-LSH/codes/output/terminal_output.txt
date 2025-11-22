@@ -1,0 +1,115 @@
+Loading and processing images
+Loading and processing target image
+Preprocessing complete.
+
+--- Running NN Search ---
+1th NN Search:
+	Result: 38.jpg
+	Total Time: 0.000133 s
+2th NN Search:
+	Result: 38.jpg
+	Total Time: 0.000216 s
+3th NN Search:
+	Result: 38.jpg
+	Total Time: 0.000145 s
+4th NN Search:
+	Result: 38.jpg
+	Total Time: 0.000151 s
+5th NN Search:
+	Result: 38.jpg
+	Total Time: 0.000145 s
+
+Average NN Search Time over 5 runs: 0.000158 s
+
+--- Running LSH Search (k=8) ---
+
+1th LSH Search (k=8):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000643 s
+	(Build: 0.000498 s, Query: 0.000145 s, Bucket Size: 50)
+
+2th LSH Search (k=8):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000558 s
+	(Build: 0.000403 s, Query: 0.000155 s, Bucket Size: 50)
+
+3th LSH Search (k=8):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000544 s
+	(Build: 0.000407 s, Query: 0.000137 s, Bucket Size: 50)
+
+4th LSH Search (k=8):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000546 s
+	(Build: 0.000406 s, Query: 0.000140 s, Bucket Size: 50)
+
+5th LSH Search (k=8):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000569 s
+	(Build: 0.000422 s, Query: 0.000147 s, Bucket Size: 50)
+
+Average LSH Build Time over 5 runs (k=8): 0.000427 s
+Average LSH Query Time over 5 runs (k=8): 0.000145 s
+Average LSH Search Time over 5 runs (k=8): 0.000572 s
+
+--- Running LSH Search (k=16) ---
+
+1th LSH Search (k=16):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000766 s
+	(Build: 0.000621 s, Query: 0.000145 s, Bucket Size: 50)
+
+2th LSH Search (k=16):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000839 s
+	(Build: 0.000616 s, Query: 0.000223 s, Bucket Size: 50)
+
+3th LSH Search (k=16):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000940 s
+	(Build: 0.000766 s, Query: 0.000174 s, Bucket Size: 50)
+
+4th LSH Search (k=16):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000852 s
+	(Build: 0.000615 s, Query: 0.000236 s, Bucket Size: 50)
+
+5th LSH Search (k=16):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000774 s
+	(Build: 0.000625 s, Query: 0.000148 s, Bucket Size: 50)
+
+Average LSH Build Time over 5 runs (k=16): 0.000649 s
+Average LSH Query Time over 5 runs (k=16): 0.000185 s
+Average LSH Search Time over 5 runs (k=16): 0.000834 s
+
+--- Running LSH Search (k=24) ---
+
+1th LSH Search (k=24):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000960 s
+	(Build: 0.000815 s, Query: 0.000144 s, Bucket Size: 49)
+
+2th LSH Search (k=24):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000947 s
+	(Build: 0.000803 s, Query: 0.000144 s, Bucket Size: 49)
+
+3th LSH Search (k=24):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.001000 s
+	(Build: 0.000851 s, Query: 0.000149 s, Bucket Size: 49)
+
+4th LSH Search (k=24):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.001151 s
+	(Build: 0.000999 s, Query: 0.000152 s, Bucket Size: 49)
+
+5th LSH Search (k=24):
+	Result: 38.jpg
+	Total Time (Build + Query): 0.000957 s
+	(Build: 0.000810 s, Query: 0.000147 s, Bucket Size: 49)
+
+Average LSH Build Time over 5 runs (k=24): 0.000856 s
+Average LSH Query Time over 5 runs (k=24): 0.000147 s
+Average LSH Search Time over 5 runs (k=24): 0.001003 s
